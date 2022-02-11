@@ -1,0 +1,35 @@
+h1.name {
+    font-size: 94px;
+    font-weight: 700;
+    display: inline-block;
+    text-decoration-color: #fff;   
+}
+#strike {
+    text-decoration: line-through;
+    text-decoration-color: currentcolor;
+    text-decoration-color: red;
+    display: inline;
+}
+.typed-cursor{
+    opacity: 1;
+  }
+  .typed-cursor.typed-cursor--blink{
+    animation: typedjsBlink 0.7s infinite;
+    -webkit-animation: typedjsBlink 0.7s infinite;
+            animation: typedjsBlink 0.7s infinite;
+  }
+  @keyframes typedjsBlink{
+    50% { opacity: 0.0; }
+  }
+  @-webkit-keyframes typedjsBlink{
+    0% { opacity: 1; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1; }
+  }
+.subtitle {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    color: #81899c;
+    margin-top: 10px;
+}

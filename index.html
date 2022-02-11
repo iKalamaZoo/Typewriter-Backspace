@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typewriter-Backspace</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="wholesite">
+    <div class="container">
+        <div class="hero">
+            <div id="plsstop">
+                <h1 class="name">
+                no
+                    <span id="strike"></span>
+                    <span class="typed-cursor"></span>
+                    <span class="subtitle">This is a simple example about how to make a typewrite effect in javascript.</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="11/typed.11"></script>
+<script src="js/nohello.js"></script>
+<style type="text/css" data-typed-js-css="true">
+    .typed-cursor{
+      opacity: 1;
+    }
+    .typed-cursor.typed-cursor--blink{
+      animation: typedjsBlink 0.7s infinite;
+      -webkit-animation: typedjsBlink 0.7s infinite;
+              animation: typedjsBlink 0.7s infinite;
+    }
+    @keyframes typedjsBlink{
+      50% { opacity: 0.0; }
+    }
+    @-webkit-keyframes typedjsBlink{
+      0% { opacity: 1; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</body>
+</html>
